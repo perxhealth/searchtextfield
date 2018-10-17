@@ -3,7 +3,7 @@
 //  SearchTextField
 //
 //  Created by Alejandro Pasccon on 4/20/16.
-//  Copyright Â© 2016 Alejandro Pasccon. All rights reserved.
+//  Copyright © 2016 Alejandro Pasccon. All rights reserved.
 //
 
 import UIKit
@@ -334,7 +334,7 @@ open class SearchTextField: UITextField {
     
     // Handle keyboard events
     @objc open func keyboardWillShow(_ notification: Notification) {
-        if !keyboardIsShowing && isEditing {
+        if !keyboardIsShowing {
             keyboardIsShowing = true
             keyboardFrame = ((notification as NSNotification).userInfo![UIResponder.keyboardFrameEndUserInfoKey] as! NSValue).cgRectValue
             interactedWith = true
