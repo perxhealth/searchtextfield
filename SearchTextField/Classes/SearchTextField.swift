@@ -3,7 +3,7 @@
 //  SearchTextField
 //
 //  Created by Alejandro Pasccon on 4/20/16.
-//  Copyright © 2016 Alejandro Pasccon. All rights reserved.
+//  Copyright 2016 Alejandro Pasccon. All rights reserved.
 //
 
 import UIKit
