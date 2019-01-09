@@ -212,6 +212,7 @@ open class SearchTextField: UITextField {
             tableView.delegate = self
             tableView.separatorInset = UIEdgeInsets.zero
             tableView.tableHeaderView = resultsListHeader
+            tableView.accessibilityIdentifier = "searchTableView"
             if forceRightToLeft {
                 tableView.semanticContentAttribute = .forceRightToLeft
             }
