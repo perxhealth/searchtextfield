@@ -222,9 +222,9 @@ open class SearchTextField: UITextField {
             shadowView.layer.shadowOpacity = 1
             
             self.window?.addSubview(tableView)
+            tableView.accessibilityIdentifier = "searchTableView"
         } else {
             tableView = UITableView(frame: CGRect.zero)
-            tableView.accessibilityIdentifier = "searchTableView"
             shadowView = UIView(frame: CGRect.zero)
         }
         
